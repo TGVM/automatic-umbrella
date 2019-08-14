@@ -1,6 +1,7 @@
 public class HelloWorld{
     public static void main(String[] args) {
-        System.out.print("Hello World");    
+        for(int i=0; i<1000000; i+=5){
+            System.out.print("Hello World");    
+        }
     }
-
 }
